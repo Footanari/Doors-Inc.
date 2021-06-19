@@ -60,3 +60,23 @@ body {
     padding-left: 30%;
     padding-right: 30%;
 }
+.trick-button {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.padding-image {
+    padding-top: 90px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}

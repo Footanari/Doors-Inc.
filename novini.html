@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <title>Doors Inc.</title>
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+    </style>
+    <script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Ама как не слушаш, казах вече, че всички поръчки стават само на място, от 9ти блок.";
+        }
+        </script>
 </head>
 <body style="color: white;">
     <header class="header">
@@ -14,6 +23,7 @@
             <img src="logo.png" height="70" class="logo"/>
         </a>
         <div>
+            <a href="special-offers.html" class="menu">Специални оферти</a>
             <a href="novini.html" class="menu">Новини</a>
             <a href="zanas.html" class="menu">За Нас</a>
             <a href="contacti.html" class="menu">Контакти</a>
@@ -22,5 +32,16 @@
     <div class="posts">
         
     </div>
+    <h1 style="color:red;"></h1style>САМО СЕГА, ГОРЕЩА ОФЕРТА!</h1>
+    
+    <img class= "center" src="https://thumbs.dreamstime.com/b/wardrobe-door-beginning-narnia-trail-kilbroney-park-rostrevor-northern-ireland-182573136.jpg"style="width:400px;height:300px;">
+
+    <main class="main">
+    <p>Не изпускайте тази гореща оферта за врата до НАРНИЯ само за 14.77лв. днес и никога повече! <br>
+        Потвърдете вашата поръчка само на гишето на мазето в 9ти блок.</p>
+    </main>
+    <p id="demo">Поръчай тук!</p>
+    <button type="button" class= "trick-button" onclick="myFunction()">Бърза поръчка!</button>
+
 </body>
 </html>
