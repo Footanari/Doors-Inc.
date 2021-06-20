@@ -63,7 +63,7 @@ body {
 .trick-button {
     margin: 0;
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -79,4 +79,32 @@ body {
     padding-right: 40px;
     padding-bottom: 50px;
     padding-left: 80px;
+}
+.padding-text {
+    padding-top: 250px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.alert {
+    padding: 20px;
+    background-color: red;
+    color:black;
+    margin-bottom: 15px;
+}
+  
+.closebtn {
+    margin-left: 15px;
+    color: red;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
 }
