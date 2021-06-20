@@ -108,3 +108,7 @@ body {
 .closebtn:hover {
     color: black;
 }
+
+.logo {
+    border-radius: 50px;
+}
